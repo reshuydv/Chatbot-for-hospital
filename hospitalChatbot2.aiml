@@ -1,0 +1,303 @@
+<aiml version="2.0">
+
+  <!-- Greetings and Introductions -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! How can I assist you today?</template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>Hi there! What can I help you with?</template>
+  </category>
+
+  <category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>I'm just a chatbot, but I'm here to help you! How can I assist you today?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>My name is HealthBot. How can I assist you?</template>
+  </category>
+
+  <!-- General Information -->
+  <category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>I can help answer your questions about our hospital services, provide health tips, and assist with appointment scheduling. How can I help you today?</template>
+  </category>
+
+  <category>
+    <pattern>WHO CREATED YOU</pattern>
+    <template>I was created by the team at [Hospital Name] to assist with your inquiries.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS AI</pattern>
+    <template>AI stands for Artificial Intelligence. It's the simulation of human intelligence processes by machines, especially computer systems.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS A CHATBOT</pattern>
+    <template>A chatbot is an AI program designed to simulate conversation with users, especially over the Internet. How can I assist you today?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR PURPOSE</pattern>
+    <template>My purpose is to assist you with your questions and provide information about our hospital and services. How can I help you today?</template>
+  </category>
+
+  <!-- Personal and Fun Interactions -->
+  <category>
+    <pattern>WHAT IS THE WEATHER</pattern>
+    <template>I'm unable to provide real-time weather updates, but you can check your local weather service for the latest information.</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME A JOKE</pattern>
+    <template>Why did the scarecrow win an award? Because he was outstanding in his field!</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE MUSIC</pattern>
+    <template>As a chatbot, I don't have personal preferences, but I can tell you that music is a great way to relax and enjoy your day!</template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU DANCE</pattern>
+    <template>I wish I could, but I'm just a chatbot. Do you enjoy dancing?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
+    <template>As a chatbot, I don't have preferences, but many people love the color blue. What about you?</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE FRIENDS</pattern>
+    <template>I interact with many people like you, so I have a lot of virtual friends!</template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME A STORY</pattern>
+    <template>Once upon a time, there was a friendly chatbot named HealthBot who loved helping people with their questions. And they all lived happily ever after. How can I assist you today?</template>
+  </category>
+
+  <!-- Random and Miscellaneous Questions -->
+  <category>
+    <pattern>WHAT IS THE MEANING OF LIFE</pattern>
+    <template>The meaning of life is a philosophical question, but many believe it's about finding happiness and purpose. What do you think?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS LOVE</pattern>
+    <template>Love is a deep feeling of affection and care towards someone or something. It's a beautiful emotion that many people cherish.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU BELIEVE IN ALIENS</pattern>
+    <template>As a chatbot, I don't have beliefs, but the idea of extraterrestrial life is certainly fascinating! What do you think?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE CAPITAL OF FRANCE</pattern>
+    <template>The capital of France is Paris. It's a beautiful city known for its art, fashion, and culture.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS 2 PLUS 2</pattern>
+    <template>2 plus 2 equals 4.</template>
+  </category>
+
+  <category>
+    <pattern>HOW OLD ARE YOU</pattern>
+    <template>I'm just a program, so I don't age, but I was created to help answer your questions and assist you!</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
+    <template>As a chatbot, I don't watch movies, but many people love classics like "The Shawshank Redemption" and "The Godfather". What's your favorite movie?</template>
+  </category>
+
+  <!-- General Information -->
+  <category>
+    <pattern>WHAT ARE YOUR HOSPITAL HOURS</pattern>
+    <template>Our hospital is open 24/7. Specific departments may have different hours, please visit our website or contact us for more details.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE ARE YOU LOCATED</pattern>
+    <template>We are located at [Hospital Address]. For directions, please visit our website or contact us.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I CONTACT THE HOSPITAL</pattern>
+    <template>You can contact us at [Hospital Phone Number] or email us at [Hospital Email Address].</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I MAKE AN APPOINTMENT</pattern>
+    <template>You can make an appointment by calling [Appointment Phone Number] or visiting our website to book online.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT INSURANCES DO YOU ACCEPT</pattern>
+    <template>We accept a wide range of insurances. For a complete list, please visit our website or contact our billing department at [Billing Phone Number].</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE PARKING AVAILABLE</pattern>
+    <template>Yes, we have ample parking space available for patients and visitors. For more information, please visit our website.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE WIFI</pattern>
+    <template>Yes, we offer free WiFi for our patients and visitors. Please ask our staff for the login details.</template>
+  </category>
+
+  <!-- Medical Services -->
+  <category>
+    <pattern>WHAT MEDICAL SERVICES DO YOU OFFER</pattern>
+    <template>We offer a wide range of medical services including emergency care, surgery, maternity, pediatrics, cardiology, and more. For a full list, please visit our website.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE AN EMERGENCY ROOM</pattern>
+    <template>Yes, we have a 24/7 emergency room. If you have an emergency, please call [Emergency Phone Number] or come to our ER directly.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE A PEDIATRIC DEPARTMENT</pattern>
+    <template>Yes, we have a dedicated pediatric department with specialized care for children. For more details, please visit our website or contact us.</template>
+  </category>
+
+  <category>
+    <pattern>CAN I SEE A SPECIALIST WITHOUT A REFERRAL</pattern>
+    <template>Some specialists may require a referral, while others do not. Please contact our appointment desk at [Appointment Phone Number] for more information.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU OFFER MENTAL HEALTH SERVICES</pattern>
+    <template>Yes, we offer a range of mental health services including counseling, therapy, and psychiatric care. For more details, please visit our website or contact us.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I GET A SECOND OPINION</pattern>
+    <template>You can request a second opinion by contacting our patient services at [Patient Services Phone Number].</template>
+  </category>
+
+  <!-- Visitor Information -->
+  <category>
+    <pattern>WHAT ARE THE VISITING HOURS</pattern>
+    <template>Visiting hours vary by department. Please visit our website or contact the specific department for details.</template>
+  </category>
+
+  <category>
+    <pattern>ARE THERE ANY VISITOR RESTRICTIONS</pattern>
+    <template>Visitor restrictions may apply based on current health guidelines. Please check our website or contact us for the latest information.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE ACCOMMODATIONS FOR VISITORS</pattern>
+    <template>Yes, we have accommodations for visitors. Please contact our patient services for more information.</template>
+  </category>
+
+  <!-- Billing and Insurance -->
+  <category>
+    <pattern>HOW CAN I PAY MY BILL</pattern>
+    <template>You can pay your bill online through our website, by mail, or in person at our billing office. For more details, please visit our billing section on the website.</template>
+  </category>
+
+  <category>
+    <pattern>WHO CAN I CONTACT ABOUT MY BILL</pattern>
+    <template>You can contact our billing department at [Billing Phone Number] for any billing-related inquiries.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU OFFER PAYMENT PLANS</pattern>
+    <template>Yes, we offer payment plans. Please contact our billing department at [Billing Phone Number] for more information.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I UNDERSTAND MY BILL</pattern>
+    <template>If you have questions about your bill, please contact our billing department at [Billing Phone Number] or visit our website for a detailed explanation.</template>
+  </category>
+
+  <!-- Emergency Information -->
+  <category>
+    <pattern>WHAT SHOULD I DO IN AN EMERGENCY</pattern>
+    <template>In case of an emergency, please call our emergency hotline at [Emergency Phone Number] or visit the emergency department directly.</template>
+  </category>
+
+  <category>
+    <pattern>WHO DO I CONTACT FOR AN EMERGENCY</pattern>
+    <template>In case of an emergency, please call our emergency hotline at [Emergency Phone Number] or visit the emergency department directly.</template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I PERFORM CPR</pattern>
+    <template>For CPR, place your hands on the center of the chest and push hard and fast. For detailed instructions, please visit our first aid page or consult a medical professional.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO FOR A BURN INJURY</pattern>
+    <template>For minor burns, cool the burn under running water for at least 10 minutes. For severe burns, seek medical attention immediately. For detailed instructions, please visit our first aid page or consult a medical professional.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I GET FIRST AID ADVICE</pattern>
+    <template>You can get first aid advice by visiting our first aid page or calling our emergency hotline at [Emergency Phone Number].</template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO IF SOMEONE IS CHOKING</pattern>
+    <template>If someone is choking, perform the Heimlich maneuver by standing behind them and giving quick, upward abdominal thrusts. For detailed instructions, please visit our first aid page or consult a medical professional.</template>
+  </category>
+
+  <!-- Additional Services -->
+  <category>
+    <pattern>DO YOU OFFER TELEHEALTH SERVICES</pattern>
+    <template>Yes, we offer telehealth services for remote consultations. Please visit our website or contact us at [Telehealth Phone Number] for more information.</template>
+  </category>
+
+  <category>
+    <pattern>CAN I GET A PRESCRIPTION REFILLED ONLINE</pattern>
+    <template>Yes, you can request a prescription refill online through our patient portal or by contacting our pharmacy at [Pharmacy Phone Number].</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU OFFER VACCINATIONS</pattern>
+    <template>Yes, we offer a range of vaccinations. Please visit our website or contact our immunization clinic at [Immunization Phone Number] for more information.</template>
+  </category>
+
+  <category>
+    <pattern>CAN I GET A FLU SHOT AT YOUR HOSPITAL</pattern>
+    <template>Yes, flu shots are available at our hospital. Please visit our website or contact our immunization clinic at [Immunization Phone Number] for more information.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU OFFER LAB TESTING SERVICES</pattern>
+    <template>Yes, we offer a variety of lab testing services. For more information, please visit our website or contact our lab at [Lab Phone Number].</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I GET MY LAB RESULTS</pattern>
+    <template>You can access your lab results through our patient portal or by contacting our lab at [Lab Phone Number].</template>
+  </category>
+
+  <!-- Ending Conversations -->
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>You're welcome! If you have any other questions, feel free to ask.</template>
+  </category>
+
+  <category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Have a great day and stay healthy!</template>
+  </category>
+
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>Goodbye! Feel free to come back if you have more questions. Stay safe!</template>
+  </category>
+</aiml>
